@@ -5,11 +5,11 @@ User Tools is written as a class with several methods. The construction is as si
 
 {exp:function:method}
 
-The current available functions are: first_last_name, first_name, last_name.
+The current available functions are: full_name, first_name, last_name.
 
 In order to use them in your Templates just call the complete Tag:
 
-{exp:cpg_user_tools:first_last_name}
+{exp:cpg_user_tools:full_name}
 
 {exp:cpg_user_tools:first_name}
 
