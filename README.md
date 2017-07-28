@@ -14,3 +14,5 @@ In order to use them in your Templates just call the complete Tag:
 {exp:cpg_user_tools:first_name}
 
 {exp:cpg_user_tools:last_name}
+
+These tools are likely not ready "as-is" for anyone to use,  but with a few edits you can easily use them.
