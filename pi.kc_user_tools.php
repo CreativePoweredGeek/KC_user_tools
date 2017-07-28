@@ -2,7 +2,7 @@
 
 class Kc_user_tools {
 
-    public function first_last_name() {
+    public function full_name() {
 		$str = ee()->session->userdata('member_id');
 		ee()->db->select('m_field_id_1, m_field_id_2');
 		ee()->db->where('member_id', $str);
